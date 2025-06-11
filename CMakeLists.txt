@@ -3,4 +3,4 @@ project(quadratic_formula C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(quadratic_formula main.c)
+add_executable(quadratic_formula src/main.c)
