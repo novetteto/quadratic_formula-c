@@ -28,7 +28,7 @@ int main(void)
     double component_b;
     double component_c;
 
-    printf("Input A, B, C separeted by spaces: ");
+    printf("Input A, B, C. Separated by spaces: ");
     scanf("%lf %lf %lf", &component_a, &component_b, &component_c);
 
     while (component_a == 0) {

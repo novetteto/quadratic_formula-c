@@ -4,3 +4,5 @@ project(quadratic_formula C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(quadratic_formula src/main.c)
+
+target_link_libraries(quadratic_formula m)
